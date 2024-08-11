@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Signika+Negative:wght@300..700&family=Syne:wght@400..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: #fcf8ef;
+    font-family: "Nunito", sans-serif;
+    color: #01563f;
+}
+
+.boxShadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.imgHover:hover .blogHeading {
+    text-decoration: underline;
+
+}
+
+.inputField {
+    margin: 10px 0px;
+    background-color: transparent;
+    outline: unset;
+    border-bottom: 2px solid #9c9e9f;
+    padding: 20px 0px;
+    color: #01563f;
+    font-size: 18px;
+    width: 100%;
+}
+
+.inputField::placeholder {
+    color: #01563f;
+}
+
+.selectField {
+    background: transparent;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid #01563f;
+    border-radius: 25px;
+    padding: 0px 12px;
+}
+
+.imgHover{
+    transition: all 0.3s ease-in-out;
+}
+
+.imgHover img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.journalCard:hover .imgHover img {
+    transform: scale(1.02);
+    -webkit-box-shadow: 10px 10px 0px -4px rgba(1,86,63,1);
+    -moz-box-shadow: 10px 10px 0px -4px rgba(1,86,63,1);
+    box-shadow: 10px 10px 0px -4px rgba(1,86,63,1);
+}
