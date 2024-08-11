@@ -1,5 +1,5 @@
 import { LoginMethodIcon } from "hugeicons-react"
-import img from "../../assets/account.svg"
+import img from "../../../public/assets/account.svg"
 import {useForm } from "react-hook-form"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"

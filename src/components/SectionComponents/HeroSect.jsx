@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import heroimages from "../../assets/heroImg.svg"
+import heroimages from "../../../public/assets/heroImg.svg"
 import Button from "../GeneralComponents/Button"
 
 export default function HeroSect() {
